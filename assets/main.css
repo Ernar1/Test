@@ -1,0 +1,251 @@
+.body{
+    display: block;
+    background: linear-gradient(114deg, aqua 1%, white 20%);
+    height: 930px;
+}
+
+/*HEADER*/
+
+.container{
+    width: 1300px;
+    margin-top: 25px;
+    height: 50px;
+
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    margin-right: 150px;
+    margin-left: 300px;
+}
+
+.header__logo{
+    margin: auto
+}
+
+.nav{
+    text-align: left;
+    word-spacing: 10px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.nav_right{
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.header__logo{
+    font-size: 26px;
+}
+
+.nav__link1, .nav__link2, .nav__link3, .nav__link4{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.nav__link5, .nav__link6{
+    font-size: 22px;
+    display: grid;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+
+.nav__link7{
+    color: white;
+    font-size: 22px;
+    display: grid;
+    margin: auto;
+    align-items: center;
+    border: 2px solid aqua;
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+
+
+/*MAIN CONTENT*/
+
+.main_content{
+    width: 1300px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.demo_book{
+    width: 650px;
+    height: 500px;
+
+    text-align: center;
+}
+
+.demo_text{
+    margin-top: 150px;
+}
+
+.demo_btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.btn_start{
+    border: 2px solid aqua;
+    padding: 15px 40px;
+    background-color: aqua;
+    color: white;
+}
+
+.btn_demo{
+    border: 2px solid aqua;
+    padding: 15px 40px;
+    background-color: white;
+    color: aqua;
+}
+
+
+
+
+.patient{
+    width: 650px;
+    height: 500px;
+
+    text-align: center;
+}
+
+.patient_circle{
+  position: relative;
+  width: 15em;
+  height: 15em;
+  border: 2px solid aqua;
+  background-color: aqua;
+  border-radius: 50%;
+  overflow: hidden;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.doctor_png{
+    position: relative;
+    margin-top: -550px;
+}
+
+.patient_square1{
+    position: inherit;
+    width: 200px;
+	height: 100px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    margin-top: -300px;
+    margin-left: 75px;
+}
+
+.patient_square2{
+    width: 200px;
+	height: 75px;
+	background: aqua;
+    border-radius: 20px;
+    margin-top: -75px;
+    margin-left: 400px;
+}
+
+.patient_square3{
+    position: relative;
+    width: 200px;
+	height: 75px;
+	background: green;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+
+.patient_square4{
+    position: relative;
+    width: 200px;
+	height: 75px;
+	background: yellow;
+    border-radius: 20px;
+    margin-top: -60px;
+    margin-left: 400px;
+}
+
+.patient_square5{
+    position: absolute;
+    width: 300px;
+	height: 150px;
+	border: 2px solid aqua;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.square_text{
+    text-align: center;
+}
+
+/*FOOTER*/
+
+.footer{
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 1300px;
+    height: 300px;
+    display: grid;
+}
+
+.about_us{
+    text-align: center;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    background: linear-gradient(134deg, white 5%, aqua 20%);
+    text-align: left;
+}
+
+.about_text{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.about_info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 550px;
+    margin-top: -50px;
+}
+
+
+h1{
+    font-size: 48px;
+}
+
+h2, h3, h4{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
